@@ -262,5 +262,10 @@ namespace DAC___DofusInvoker_Auto_Decompiler
             Process[] ankamaLauncherProcess = Process.GetProcessesByName("Ankama Launcher");
             if (ankamaLauncherProcess.Length == 0) Process.Start(Settings.Default.AnkamaLauncherPath + "/Ankama Launcher.exe");
         }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
